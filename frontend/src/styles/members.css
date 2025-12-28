@@ -1,0 +1,71 @@
+/* Members Page Styles */
+
+.members-page {
+  padding: 3rem 0;
+}
+
+.members-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  color: white;
+  border-radius: 8px;
+}
+
+.members-header h1 {
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.member-profile {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.member-profile h2 {
+  color: var(--secondary-color);
+  margin-bottom: 1rem;
+}
+
+.profile-info {
+  display: grid;
+  gap: 1rem;
+}
+
+.profile-item {
+  display: flex;
+  padding: 0.75rem;
+  background: var(--light-gray);
+  border-radius: 4px;
+}
+
+.profile-label {
+  font-weight: 600;
+  min-width: 120px;
+  color: var(--secondary-color);
+}
+
+.profile-value {
+  color: var(--text-color);
+}
+
+.member-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.member-content h2 {
+  color: var(--secondary-color);
+  margin-bottom: 1.5rem;
+}
+
+.member-content p {
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
