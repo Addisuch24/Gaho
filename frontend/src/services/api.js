@@ -52,6 +52,40 @@ const mockEvents = [
     location: 'GAHO Cultural Center',
     imageUrl: '/assets/images/event-3.jpg',
     createdBy: 1
+  },
+  {
+    id: 4,
+    title: 'Irreecha Festival 2024',
+    description: 'Annual Oromo Thanksgiving festival celebrating the end of the rainy season and the beginning of the harvest. Join us for traditional songs, dances, and prayers at Hora Finfinnee (Entoto Park).',
+    date: '2024-10-06T08:00:00',
+    endDate: '2024-10-06T18:00:00',
+    location: 'Hora Finfinnee (Entoto Park), Addis Ababa',
+    imageUrl: '/irreecha.jpg',
+    createdBy: 1,
+    isFeatured: true,
+    details: {
+      schedule: [
+        '08:00 - Gathering and traditional songs',
+        '10:00 - Traditional prayers and blessings',
+        '12:00 - Cultural performances and dances',
+        '14:00 - Traditional lunch (Buffet style)',
+        '15:30 - Speeches and cultural presentations',
+        '17:00 - Closing ceremony and group photo'
+      ],
+      whatToBring: [
+        'Traditional Oromo clothing (if available)',
+        'Flowers and green grass (for the ceremony)',
+        'Water bottle',
+        'Sun protection (hat, sunscreen)'
+      ],
+      additionalInfo: [
+        'Free entry for all',
+        'Parking available at designated areas',
+        'Food and drinks will be available for purchase',
+        'Family-friendly event',
+        'Please respect cultural traditions and customs'
+      ]
+    }
   }
 ];
 

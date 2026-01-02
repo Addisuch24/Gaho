@@ -39,6 +39,7 @@ export const regionsData = [
       'Hospitality and generosity'
     ],
     gallery: [
+      '/borana.jpg',
       '/assets/images/borana-1.jpg',
       '/assets/images/borana-2.jpg',
       '/assets/videos/borana-dance.mp4'
@@ -81,6 +82,7 @@ export const regionsData = [
       'Religious tolerance'
     ],
     gallery: [
+      '/hararghe.jpg',
       '/assets/images/hararghe-1.jpg',
       '/assets/images/hararghe-2.jpg',
       '/assets/videos/hararghe-market.mp4'
@@ -123,8 +125,8 @@ export const regionsData = [
       'Historical pride'
     ],
     gallery: [
-      '/assets/images/jimma-1.jpg',
-      '/assets/images/jimma-2.jpg',
+      '/jimma.jpg',
+      '/jimma1.jpg',
       '/assets/videos/jimma-coffee.mp4'
     ]
   },
@@ -165,7 +167,7 @@ export const regionsData = [
       'Cultural identity'
     ],
     gallery: [
-      '/assets/images/guji-1.jpg',
+      '/guji.jpg',
       '/assets/images/guji-2.jpg',
       '/assets/videos/guji-ceremony.mp4'
     ]
@@ -207,7 +209,7 @@ export const regionsData = [
       'Respect for elders'
     ],
     gallery: [
-      '/assets/images/arsi-1.jpg',
+      '/arsi.jpg',
       '/assets/images/arsi-2.jpg',
       '/assets/videos/arsi-athletics.mp4'
     ]
@@ -249,9 +251,93 @@ export const regionsData = [
       'Community harmony'
     ],
     gallery: [
-      '/assets/images/shewa-1.jpg',
+      '/shewa.jpg',
       '/assets/images/shewa-2.jpg',
       '/assets/videos/shewa-dance.mp4'
+    ]
+  },
+  {
+    id: 7,
+    name: 'Wollega',
+    slug: 'wollega',
+    description: 'Wollega is known for its rich cultural heritage, coffee production, and natural beauty.',
+    history: 'The Wollega region has a long history of the Oromo people and is known for its significant role in the Oromo resistance movements. The area is characterized by its lush landscapes and agricultural productivity.',
+    practices: [
+      'Traditional farming and agriculture',
+      'Coffee and spice production',
+      'Cultural festivals and ceremonies',
+      'Traditional weaving and crafts',
+      'Indigenous knowledge systems'
+    ],
+    clothing: {
+      men: 'Traditional white cotton garments with colorful sashes, often with decorative embroidery',
+      women: 'Colorful dresses with intricate patterns, often with matching headscarves and beaded jewelry'
+    },
+    food: [
+      'Buna Qalaa (Roasted coffee)',
+      'Marqaa (Traditional soup)',
+      'Kocho (Fermented bread)',
+      'Fresh fruits and vegetables',
+      'Honey and dairy products'
+    ],
+    music: {
+      instruments: ['Krar', 'Masinko', 'Washint', 'Drums'],
+      dances: ['Traditional Wollega dance', 'Cultural performances'],
+      occasions: 'Weddings, harvest festivals, and cultural celebrations'
+    },
+    values: [
+      'Community cooperation',
+      'Environmental stewardship',
+      'Cultural preservation',
+      'Education and knowledge sharing',
+      'Hospitality and generosity'
+    ],
+    gallery: [
+      '/wollega.jpg',
+      '/assets/images/wollega-1.jpg',
+      '/assets/videos/wollega-culture.mp4'
+    ]
+  },
+  {
+    id: 8,
+    name: 'Illu Abba Boru',
+    slug: 'illu-abba-boru',
+    description: 'Illu Abba Boru is known for its unique cultural practices, coffee production, and natural resources.',
+    history: 'Illu Abba Boru, located in the Oromia Region, is known for its significant coffee production and rich cultural heritage. The area is named after the legendary Oromo leader Abba Boru.',
+    practices: [
+      'Coffee cultivation and processing',
+      'Beekeeping and honey production',
+      'Traditional medicine',
+      'Cultural ceremonies and rituals',
+      'Forest conservation'
+    ],
+    clothing: {
+      men: 'White cotton garments with traditional shawls and head coverings',
+      women: 'Colorful dresses with intricate patterns, often with beaded necklaces and bracelets'
+    },
+    food: [
+      'Buna (Coffee ceremony)',
+      'Marqaa (Spiced soup)',
+      'Kocho (Enset bread)',
+      'Fresh honey and dairy products',
+      'Local fruits and vegetables'
+    ],
+    music: {
+      instruments: ['Krar', 'Washint', 'Drums', 'Shakers'],
+      dances: ['Traditional circle dances', 'Cultural performances'],
+      occasions: 'Coffee ceremonies, weddings, and cultural festivals'
+    },
+    values: [
+      'Respect for nature',
+      'Community solidarity',
+      'Cultural identity',
+      'Sustainable agriculture',
+      'Intergenerational knowledge transfer'
+    ],
+    gallery: [
+      '/illu-abba-boru.jpg',
+      '/assets/images/illu-abba-boru-1.jpg',
+      '/assets/videos/illu-abba-boru-culture.mp4'
     ]
   }
 ];

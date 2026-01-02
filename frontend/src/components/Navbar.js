@@ -31,6 +31,9 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }) => {
             </NavLink>
           </li>
           <li>
+            <NavLink to="/about" onClick={closeMenu}>
+              About Us
+            </NavLink>
             <NavLink to="/regions" onClick={closeMenu}>
               Regions
             </NavLink>
@@ -38,6 +41,11 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }) => {
           <li>
             <NavLink to="/events" onClick={closeMenu}>
               Events
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/contact" onClick={closeMenu}>
+              Contact
             </NavLink>
           </li>
           
