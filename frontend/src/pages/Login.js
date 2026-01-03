@@ -102,11 +102,7 @@ const Login = ({ onLogin }) => {
           Don't have an account? <Link to="/register">Register here</Link>
         </p>
 
-        <div style={styles.demoInfo}>
-          <p><strong>Demo Credentials:</strong></p>
-          <p>Admin: admin@gaho.com / admin123</p>
-          <p>User: user@gaho.com / user123</p>
-        </div>
+    
       </div>
     </div>
   );
