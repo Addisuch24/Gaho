@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { FaCalendarAlt, FaMapMarkerAlt, FaUsers, FaHandsHelping } from 'react-icons/fa';
+import { FaUsers, FaHandsHelping } from 'react-icons/fa';
 import { GiElephant, GiDrum, GiClothes, GiMeal } from 'react-icons/gi';
 import { motion } from 'framer-motion';
 import Card from '../components/Card';

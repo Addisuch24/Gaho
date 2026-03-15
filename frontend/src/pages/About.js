@@ -1,8 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { GiElephant, GiTeamIdea, GiAfrica, GiBookCover, GiEarthSpit } from 'react-icons/gi';
-import { FaHandsHelping, FaUsers, FaGlobeAfrica, FaBullseye, FaLightbulb } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
+import { GiElephant, GiTeamIdea, GiBookCover, GiEarthSpit } from 'react-icons/gi';
+import { FaHandsHelping, FaGlobeAfrica, FaBullseye, FaLightbulb } from 'react-icons/fa';
 import '../styles/about.css';
 
 const About = () => {
